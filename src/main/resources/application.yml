@@ -1,0 +1,9 @@
+spring:
+  data:
+    cassandra:
+      entity-base-package: com/example/cassandra/spring_cassandra_crud/model
+  cassandra:
+    port: 9042
+    contact-points: cassandra
+    keyspace-name: mykeyspace
+    schema-action: create_if_not_exists
